@@ -54,7 +54,7 @@ public class index extends HttpServlet {
 		
 		if (counter == maxParticipants)
 		{
-			response.sendRedirect("LimitReached.jsp");
+			response.sendRedirect("PozaLimitem.jsp");
 		}
 		else
 		{
@@ -80,7 +80,7 @@ public class index extends HttpServlet {
 				counter++;
 				context.setAttribute("counter", counter);
 				
-				response.sendRedirect("Registered.jsp");
+				response.sendRedirect("Rejestracja.jsp");
 			}
 		}
 	}
