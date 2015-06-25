@@ -72,7 +72,7 @@
    					<input type = "text" name = "firma" />
    				</td>
    			</tr><tr>
-   			<td>skad o nas wiesz:</td>
+   			<td>skad o nas wiesz :</td>
 				<td>  		
      				<select name = "origin">
     					<option value = "work_ad">z pracy</option>
